@@ -223,7 +223,7 @@ const ProductList = ({ products }) => {
                       Date.now() - new Date(product.createdAt) <
                       7 * 24 * 60 * 60 * 1000
                     }
-                    image={`http://localhost:3000${product.image}`}
+                    image={`http://54.227.147.62:3000${product.image}`}
                     isHot={product.downloads > 400}
                   />
                 ))}

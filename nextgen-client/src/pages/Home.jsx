@@ -32,7 +32,7 @@ const Home = () => {
           <Carousel
             images={banners.map((banner) => ({
               // The banner.image already includes '/uploads/banners/' path
-              url: `http://localhost:3000${banner.image}`,
+              url: `http://54.227.147.62:3000${banner.image}`,
               title: banner.title,
             }))}
           />

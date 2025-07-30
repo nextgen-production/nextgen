@@ -75,7 +75,7 @@ const Card = ({ id, product, image, name, price, technologies, downloads }) => {
           {/* Preview Image */}
           <div className="aspect-[4/3] w-full bg-gray-100 mb-4 rounded-lg overflow-hidden">
             <img
-              src={`http://localhost:3000${product.coverImage}`}
+              src={`http://54.227.147.62:3000${product.coverImage}`}
               alt={name}
               className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
               draggable="false"

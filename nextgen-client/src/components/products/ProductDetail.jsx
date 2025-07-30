@@ -54,7 +54,7 @@ const ProductDetail = ({ product, relatedProducts }) => {
             <Carousel
               images={product.images.map((banner) => ({
                 // The banner.image already includes '/uploads/banners/' path
-                url: `http://localhost:3000${banner}`,
+                url: `http://54.227.147.62:3000${banner}`,
                 title: banner.title,
               }))}
             />

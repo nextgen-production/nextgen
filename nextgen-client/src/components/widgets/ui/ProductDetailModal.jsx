@@ -50,7 +50,7 @@ const ProductDetailModal = ({ isOpen, onClose, product, onEdit, onDelete }) => {
                   <div className="flex flex-col space-y-4 pt-5">
                     <motion.img
                       key={images[activeImageIndex]}
-                      src={`http://localhost:3000${images[activeImageIndex]}`}
+                      src={`http://54.227.147.62:3000${images[activeImageIndex]}`}
                       alt={product.name}
                       className="w-full h-64 object-cover rounded-lg"
                       initial={{ opacity: 0 }}
@@ -71,7 +71,7 @@ const ProductDetailModal = ({ isOpen, onClose, product, onEdit, onDelete }) => {
                         >
                           <img
                             loading="lazy"
-                            src={`http://localhost:3000${img}`}
+                            src={`http://54.227.147.62:3000${img}`}
                             alt={`thumb-${idx}`}
                             className="w-full h-full object-cover"
                           />

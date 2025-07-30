@@ -199,7 +199,7 @@ const ProductForm = ({ products, onEdit, onDelete, onBatchDelete }) => {
                   <td className="px-6 py-4 flex items-center gap-4">
                     <img
                       loading="lazy"
-                      src={`http://localhost:3000${product.coverImage}`}
+                      src={`http://54.227.147.62:3000${product.coverImage}`}
                       alt={product.name}
                       className="h-12 w-12 rounded-lg object-cover"
                     />
