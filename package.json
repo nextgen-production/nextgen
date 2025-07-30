@@ -1,0 +1,16 @@
+{
+  "name": "nextgenai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:client": "cd nextgen-client && npm run dev",
+    "start:api": "cd nextgen-api && npm run dev",
+    "dev": "concurrently \"npm run start:client\" \"npm run start:api\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

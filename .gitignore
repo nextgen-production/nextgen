@@ -1,0 +1,31 @@
+# Node.js modules
+node_modules/
+**/node_modules/
+
+# Env files
+.env
+.env.*
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Build output
+**/dist/
+**/build/
+**/.vite/
+**/.cache/
+coverage/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Database (optional)
+*.sqlite
+*.db
+*.sql
+*.seed
